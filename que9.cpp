@@ -11,9 +11,9 @@ bool onlydigit(string ch){
 }
 int main()
 {
-    string ch="123";
-    // cout<<"enter the string ";
-    // cin>>ch;
+    string ch;
+    cout<<"enter the string ";
+    cin>>ch;
     bool digitornot=onlydigit(ch);
     if(digitornot){
         cout<<"it aplhanumeric";
